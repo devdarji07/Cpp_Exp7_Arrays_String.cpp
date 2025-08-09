@@ -1,18 +1,18 @@
-# 🔬 Experiment 07 – Arrays and Strings in C++
+# * Experiment 07 – Arrays and Strings in C++
 
-## 🎯 Aim
+##  Aim
 To study and implement the concepts of **arrays** and **strings** in C++ through various operations and algorithms.
 
 ---
 
-## 🧰 Apparatus Required
+##  Apparatus Required
 - Visual Studio / Code::Blocks / Dev-C++ (or any standard C++ IDE or compiler)
 
 ---
 
-## 📚 Theory
+##  Theory
 
-### 📌 Arrays in C++
+###  Arrays in C++
 An **array** is a collection of elements of the same data type stored in contiguous memory locations.  
 Elements are accessed using indices starting from `0`.
 
@@ -24,7 +24,7 @@ Arrays allow:
 - **One-Dimensional Array** – Linear collection of elements.
 - **Multi-Dimensional Array** – Arrays of arrays (e.g., 2D matrix).
 
-#### 🧠 Common Algorithms with Arrays:
+####  Common Algorithms with Arrays:
 - **Linear Search** – Search for an element sequentially.
 - **Finding Min/Max** – Traverse array to find smallest/largest element.
 - **Array Reversal** – Swap elements from start to end.
@@ -32,7 +32,7 @@ Arrays allow:
 
 ---
 
-### 📌 Strings in C++
+###  Strings in C++
 Strings can be implemented using:
 1. **Character Arrays** (`char str[]`)
 2. **`std::string` Class** (recommended in modern C++)
@@ -42,7 +42,7 @@ The `std::string` class automatically handles:
 - Null termination
 - Copying
 
-#### 🧰 Common String Functions:
+####  Common String Functions:
 - `strcpy()` – Copies one string to another.
 - `strcat()` – Concatenates two strings.
 - `strlen()` – Returns string length.
@@ -50,7 +50,7 @@ The `std::string` class automatically handles:
 
 ---
 
-## 💻 Implementation Tasks
+##  Implementation Tasks
 1. **Basic Array Declaration & Printing**  
 2. **Searching for an Element (Linear Search)**  
 3. **Finding Minimum and Maximum Values**  
